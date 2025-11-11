@@ -23,6 +23,23 @@
 ## 0.0.3 
 - 🎉 Add new feature catch yaml file.
 
-
 ## 0.0.4 - Fixes for Initial Release
 - 🎉 Speed Up Package & Remove any unused dev dependencies .
+
+## 0.0.41 - Fixes for detecting usages with special formatting
+Usages of translation keys with 2 very specific styles of formatting are now detected, whereas before they were ignored.
+
+Trailing comma behind context:
+
+```dart
+AppLocalizations.of(
+  context,
+).key
+```
+
+Whitespace before the dot:
+
+```dart
+appLocalizations
+  .key
+```
