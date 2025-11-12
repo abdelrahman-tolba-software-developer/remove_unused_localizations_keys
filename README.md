@@ -114,6 +114,8 @@ We tested against three real-world Flutter projects with known unused keys:
 
 ## 🤝 Contributing
 We welcome all contributions! Feel free to submit issues, feature requests, or pull requests. 🙌
+![Contributors](https://img.shields.io/github/contributors/abdelrahman-tolba-software-developer/remove_unused_localizations_keys)
+
 
 ---
 
