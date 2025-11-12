@@ -90,9 +90,9 @@ void runLocalizationCleaner({
           dotAll: true)
       : RegExp(
           r'(?:' // Start non-capturing group for all possible access patterns
-                  r'(?:[a-zA-Z0-9_]+\.)+' // e.g., `_appLocalizations.` or `cubit.appLocalizations.`
+                  r'(?:[a-zA-Z0-9_]+\s*\.)+' // e.g., `_appLocalizations.` or `cubit.appLocalizations.` with optional whitespace before the dot
                   r'|'
-                  r'[a-zA-Z0-9_]+\.of\(\s*(?:context|AppNavigation\.context|this\.context|BuildContext\s+\w+)\s*\)\!?\s*\.\s*' // `of(context)!.key` with optional whitespace
+                  r'[a-zA-Z0-9_]+\.of\(\s*(?:context|AppNavigation\.context|this\.context|BuildContext\s+\w+),?\s*\)\!?\s*\.\s*' // `of(context)!.key` with optional whitespace and optional trailing comma behind "context"
                   r'|'
                   r'[a-zA-Z0-9_]+\.\w+\(\s*\)\s*\.\s*' // `SomeClass.method().key`
                   r')'
