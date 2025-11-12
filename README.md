@@ -112,17 +112,22 @@ We tested against three real-world Flutter projects with known unused keys:
 
 ---
 
----
+--- 
 
+ 
 ### ✨ Contributors
 
 Thanks goes to these wonderful people 💖  
 
+<!-- Automatic contributors (from contrib.rocks) -->
 <a href="https://github.com/abdelrahman-tolba-software-developer/remove_unused_localizations_keys/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=abdelrahman-tolba-software-developer/remove_unused_localizations_keys&nocache=1" />
 </a>
-<!-- Manual addition of Simon Lammes -->
-- Simon Lammes ([@simonlammes](https://github.com/simonlammes)) – Code contribution
+
+<!-- Manual addition for Simon Lammes -->
+<a href="https://github.com/simon-lammes" title="Simon Lammes">
+  <img src="https://avatars.githubusercontent.com/u/46446421?v=4" width="48" style="border-radius:50%;" />
+</a>
 
 ---
 
