@@ -121,7 +121,8 @@ Thanks goes to these wonderful people 💖
 <a href="https://github.com/abdelrahman-tolba-software-developer/remove_unused_localizations_keys/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=abdelrahman-tolba-software-developer/remove_unused_localizations_keys&nocache=1" />
 </a>
-
+<!-- Manual addition of Simon Lammes -->
+- Simon Lammes ([@simonlammes](https://github.com/simonlammes)) – Code contribution
 
 ---
 
